@@ -48,19 +48,20 @@
 
 ```
 
-### 执行
+### 使用
 
 ```
-首先在项目目录执行： `npm install` 或者 `cnpm install`
+npm install  ||  cnpm install
 
 ```
 
 #####开发模式#####
 
 ```
- npm run dev  或  npm run dev name1 name2  (_注：name 为 src/js/ 内文件_)
-
+ npm run dev  或  npm run dev name1 name2
 ```
+_注：name 为 src/js/ 内文件_
+
 #####上线模式#####
 ```
  npm run build
