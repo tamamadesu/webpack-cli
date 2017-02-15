@@ -10,7 +10,7 @@ let ExtractTextPlugin = require("extract-text-webpack-plugin");
 const  devWebpackConfig = merge(baseWebpackConfig,{
 
     output:{
-        publicPath : "/static/",
+        publicPath : "./",
         sourceMapFilename: 'sourceMap/[file].map'
     },
     plugins: [

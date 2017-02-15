@@ -48,11 +48,11 @@ let exportConfig = {
                 include : basePath
             },{
                 test    : /\.css$/,
-                loader  : ExtractTextPlugin.extract({fallbackLoader:'style-loader', loader:'css-loader?sourceMap!postcss-loader'}),
+                loader  : ExtractTextPlugin.extract({fallback:'style-loader', loader:'css-loader?sourceMap!postcss-loader'}),
                 include : basePath
             },{
                 test    : /\.sass$/,
-                loader  : ExtractTextPlugin.extract({fallbackLoader:'style-loader', loader:'css-loader?sourceMap!postcss-loader!sass-loader?indentedSyntax'}),
+                loader  : ExtractTextPlugin.extract({fallback:'style-loader', loader:'css-loader?sourceMap!postcss-loader!sass-loader?indentedSyntax'}),
                 include : basePath
             },{
                 test    : /\.vue$/,
